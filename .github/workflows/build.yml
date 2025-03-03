@@ -13,4 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build the image
-        run: ./build base
+        run: ./build vmware-vhost
+
